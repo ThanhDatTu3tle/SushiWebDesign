@@ -15,8 +15,8 @@ html {
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
 }
 
 .container-page {
@@ -43,21 +43,11 @@ img {
     border-radius: 50px 0px 0px 50px;
     background-color: #2c2a2a;
 }
-    
-.container-right {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 750px;
-    height: 980px;
-    border-radius: 0px 50px 50px 0px;
-    background-color: #ebe5e5;
-}
 
 .nav-left {
     display: flex;
     flex-direction: row;
-    margin: 20px 0px 220px 100px;
+    margin: 20px 0px 200px 100px;
 }
 
 .logo {
@@ -71,6 +61,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    font-size: 18px;
 }
 
 .menu {
@@ -94,6 +85,7 @@ img {
 .getYour {
     color: white;
     margin: 0px 0px 40px 0px;
+    font-size: 18px;
 }
 
 .title {
@@ -128,9 +120,55 @@ img {
     align-items: center;
     font-size: 22px;
     color: white;
-    width: 300px;
+    width: 250px;
     height: 80px;
-    border-radius: 30px;
+    border-radius: 60px;
     background: rgb(237,189,28);
     background: linear-gradient(90deg, rgba(237,189,28,1) 0%, rgba(235,149,38,1) 33%, rgba(245,102,0,1) 100%);
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.container-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 980px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: white;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 20px 25px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.platter {
+    margin-right: 55px;
+}
+
+.specials {
+    margin-right: 55px;
+}
+
+.icons {
+    margin: 0px 0px 0px 250px;
+}
+
+.image {
+    transform: rotate(270deg);
+    margin-top: 250px;
+    margin-right: 50px;
 }
